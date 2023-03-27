@@ -2632,20 +2632,25 @@ section {
            left: 38px;
        }
        .experience-block .meta {
-           width: 60%;
-           float: right;
-           margin-top: 12px;
+           width: 240px;
+           float: left;
+           margin-top: 22px;
+           margin-left: 40px;
+           
        }
        .experience-block .meta:after {
            border-width: 0 10px 13px 0;
            border-color: transparent #0563bb transparent transparent;
            right: auto;
            left: -10px;
+           
        }
        .experience-block .content {
-           margin-top: 12px;
-           width: 80%;
+           margin-top: 30px;
+           width: 300px;
            padding: 10px 20px;
+           margin-right: 1200px;
+          
        }
        .experience-block .content:after {
            border-width: 10px 0 0 13px;
@@ -2872,6 +2877,12 @@ section {
    }
    
    @media all and (max-width: 768px) {
+    
+
+    .education span,h4,.year{
+      color: #1c1c1c;
+    }
+
        .education {
            position: relative;
            padding: 0;
@@ -2913,7 +2924,9 @@ section {
        .education .item .content {
            padding: 24px;
            position: static;
+           width: 320px;
            margin: 0;
+           margin-top: 50px;
            margin-left: 36px;
        }
        .education .item .marker {
@@ -2950,8 +2963,11 @@ section {
        .education .item .year {
            position: static;
            margin: 0 auto;
-           padding-left: 36px;
+           padding-left: 10px;
            margin-top: 6px;
+           float: left;
+           margin-left: 2px;
+           
        }
    }
    /* ==========================================================================
@@ -3705,7 +3721,7 @@ font-weight: 600;
 line-height: 38px;
 list-style-type: none;
 margin-bottom: 20px;
-margin-top: 0px
+margin-top: 0px;
 }
 
 
@@ -3729,6 +3745,74 @@ list-style-type: none;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** media */
+
+@media (max-width: 992px) {
+  .departments .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+
+  .departments .nav-link.active {
+    color: #fff;
+    background: #1977cc;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .phello{
+    width: 350px;
+    padding:0px 10px;
+    text-align: justify;
+  }
+.masi{
+   width: 270px;
+  }
+  .section-img{
+    margin-top: -100px;
+  }
+
+
+  .icon-box{
+    width: 350px;
+    display: block;
+  }
+
+
+  canvas{
+   align-items: center;
+  text-align: center;
+  margin-left: 65px;
+  
+  }
+
+  .cper{
+    margin-left: 117px;
+    margin-bottom: 50px;
+  }
+  .textlan{
+    margin-left: 95px;
+  }
+
+
+
+
+
+}
 
 
 
