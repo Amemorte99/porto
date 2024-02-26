@@ -4078,6 +4078,36 @@ list-style-type: none;
 
 
 
+.award-item {
+  padding: 20px;
+  background-color: #0563bb;
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 0.75rem;
+}
+
+.award-icon {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.award-date {
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.award-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.award-location {
+  font-size: 0.9em;
+}
+
+
 
 
 
